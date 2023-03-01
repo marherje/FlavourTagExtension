@@ -1,0 +1,10 @@
+# Unix submit description file
+# run_eL_pR_c_quark_302_Kisr_50.sub -- simple Marlin job
+
+executable              = run_eL_pR_c_quark_302_Kisr_50.sh
+log                     = run_eL_pR_c_quark_302_Kisr_50.log
+output                  = outfile_eL_pR_c_quark_302_Kisr_50.txt
+error                   = errors_eL_pR_c_quark_302_Kisr_50.txt
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+queue 1

@@ -1,0 +1,551 @@
+/var/lib/condor/execute/dir_19059
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/MarlinDD4hep/v00-06/lib/libMarlinDD4hep.so.0.6.0 (libMarlinDD4hep.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/DDMarlinPandora/v00-12/lib/libDDMarlinPandora.so.0.12.0 (libDDMarlinPandora.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/MarlinReco/v01-32/lib/libMarlinReco.so.1.32.0 (libMarlinReco.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/PandoraAnalysis/v02-00-01/lib/libPandoraAnalysis.so.2.0.1 (libPandoraAnalysis.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/LCFIVertex/v00-08/lib/libLCFIVertexProcessors.so.0.8.0 (libLCFIVertexProcessors.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/CEDViewer/v01-19/lib/libCEDViewer.so.1.19.0 (libCEDViewer.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/Overlay/v00-22-03/lib/libOverlay.so.0.22.3 (libOverlay.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/MarlinFastJet/v00-05-02/lib/libMarlinFastJet.so.0.5.2 (libMarlinFastJet.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/LCTuple/v01-13/lib/libLCTuple.so.1.13.0 (libLCTuple.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/MarlinKinfit/v00-06/lib/libMarlinKinfit.so.0.6.0 (libMarlinKinfit.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/MarlinTrkProcessors/v02-12/lib/libMarlinTrkProcessors.so.2.12.0 (libMarlinTrkProcessors.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/MarlinKinfitProcessors/v00-04-02/lib/libMarlinKinfitProcessors.so.0.4.2 (libMarlinKinfitProcessors.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/ILDPerformance/v01-10/lib/libILDPerformance.so.1.10.0 (libILDPerformance.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/Clupatra/v01-03/lib/libClupatra.so.1.3.0 (libClupatra.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/Physsim/v00-04-01/lib/libPhyssim.so.0.4.1 (libPhyssim.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/FCalClusterer/v01-00-01/lib/libFCalClusterer.so (libFCalClusterer.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/ForwardTracking/v01-14/lib/libForwardTracking.so.1.14.0 (libForwardTracking.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/ConformalTracking/v01-11/lib/libConformalTracking.so.1.11.0 (libConformalTracking.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/LICH/v00-01/lib/libLICH.so.0.1.0 (libLICH.so)-->
+<!-- Loading shared library : /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/Garlic/v03-01/lib/libGarlic.so.3.1.0 (libGarlic.so)-->
+<!-- Loading shared library : /var/lib/condor/execute/dir_19059/lib/libLCFIPlus.so (libLCFIPlus.so)-->
+<!-- Loading shared library : /var/lib/condor/execute/dir_19059/lib/libISRQQ500.so.0.1.0 (libISRQQ500.so)-->
+<!-- Loading shared library : /var/lib/condor/execute/dir_19059/lib/libCheatdEdxDist.so (libCheatdEdxDist.so)-->
+
+Read constant "productionfolder" , value = "/cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production"
+Read constant "PidPDFFile" , value = "/cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LikelihoodPID_Standard_l5_v01.root"
+Read constant "PidWeightFiles" , value = "/cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_02GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_03GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_04GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_05GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_06GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_07GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_08GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_09GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_10GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_11GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_12GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_13GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_14GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_15GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_16GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_17GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_18GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_19GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_20GeVP_clusterinfo.weights.xml"
+[ MESSAGE "Marlin"]  ---- no GEAR XML file given  --------- 
+[ MESSAGE "InitDD4hep"]  -------------------------------------
+[ MESSAGE "InitDD4hep"]  ---- Initializing DD4hep from file  /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/ILD_o1_v05.xml ... 
+PersistencyIO    INFO  +++ Set Streamer to dd4hep::OpaqueDataBlock
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/ILD_o1_v05.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/ILD_o1_v05.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/ILD_o1_v05.xml succesfully parsed with TinyXML .....
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/DD4hep/v01-11-02/DDDetectors/compact/detector_types.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/DD4hep/v01-11-02/DDDetectors/compact/detector_types.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02-03/DD4hep/v01-11-02/DDDetectors/compact/detector_types.xml succesfully parsed with TinyXML .....
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/model_parameters_ILD_o1_v05.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/model_parameters_ILD_o1_v05.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/model_parameters_ILD_o1_v05.xml succesfully parsed with TinyXML .....
+Detector         WARN  +++ Object 'BuildHcalElectronicsInterface' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'Ecal_endcap_outer_radius' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'Ecal_endcap_plug_rmin' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'Ecal_endcap_zmax' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'Ecal_endcap_zmin' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'Lcal_z_begin' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'Lcal_z_thickness' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'SIT1_Half_Length_Z' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'SIT1_Radius' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'SIT2_Half_Length_Z' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'SIT2_Radius' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'TPC_Ecal_Hcal_barrel_halfZ' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'TUBE_IPOuterBulge_end_radius' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'TUBE_IPOuterBulge_end_z' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'TUBE_IPOuterTube_end_radius' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'TUBE_IPOuterTube_end_z' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'TUBE_IPOuterTube_start_radius' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'TUBE_IPOuterTube_start_z' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'Yoke_Z_start_endcaps' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'VXD_inner_radius' is already defined and new one will be ignored
+Detector         WARN  +++ Object 'VXD_outer_radius' is already defined and new one will be ignored
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/elements.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/elements.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/elements.xml succesfully parsed with TinyXML .....
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/materials.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/materials.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/materials.xml succesfully parsed with TinyXML .....
+Detector         INFO  *********** Created World volume with size: 1500 1500 1500
+[ VERBOSE "InitDD4hep"]  ######### dd4hep::DDSegmentation::TiledLayerGridXY() 
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/Beampipe_o1_v01_01.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/Beampipe_o1_v01_01.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/Beampipe_o1_v01_01.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"] This is the Beampipe:
+[ VERBOSE "InitDD4hep"]        0      80    13.5    13.5      14      14     0.5       0                   tube_IPInnerTube          G4_Be
+[ VERBOSE "InitDD4hep"]       80     150    13.5      23      14      24     0.5       0                  tube_IPInnerBulge          G4_Be
+[ VERBOSE "InitDD4hep"]      150     175      23      23      24      24       1       0                   tube_IPOuterTube          G4_Be
+[ VERBOSE "InitDD4hep"]      175     220      23      23   23.67   23.67    0.67       0                   tube_IPOuterTube          G4_Al
+[ VERBOSE "InitDD4hep"]      220     230      23      23      25      25       2       0                   tube_IPOuterTube          G4_Al
+[ VERBOSE "InitDD4hep"]      230   535.8      23  34.476  25.007  36.483   2.007       0                  tube_IPOuterBulge          G4_Al
+[ VERBOSE "InitDD4hep"]    535.8   809.5  34.476  56.706  37.245  59.475   2.769       0                  tube_IPOuterBulge          G4_Al
+[ VERBOSE "InitDD4hep"]    809.5  1210.5  56.706  89.274  58.893  91.461   2.187       0                  tube_IPOuterBulge          G4_Al
+[ VERBOSE "InitDD4hep"]   1210.5  1611.5  89.274 121.843  90.819 123.388   1.545       0                  tube_IPOuterBulge          G4_Al
+[ VERBOSE "InitDD4hep"]   1611.5    2013 121.843 154.452 123.067 155.676   1.224       0                  tube_IPOuterBulge          G4_Al
+[ VERBOSE "InitDD4hep"]     2013  2364.5 154.452     183 155.445 183.993   0.993       0                  tube_IPOuterBulge          G4_Al
+[ VERBOSE "InitDD4hep"]   2364.5  2414.5     183     183  183.99  183.99    0.99       0                   tube_IPOuterLink          G4_Al
+[ VERBOSE "InitDD4hep"]   2414.5  2423.5     183     183  183.85  183.85    0.85       0                   tube_IPOuterLink          G4_Al
+[ VERBOSE "InitDD4hep"]   2423.5  2424.5       0    78.5     184     184     184       3                  tube_LumiCalFront          G4_Be
+[ VERBOSE "InitDD4hep"]   2424.5    3354    78.5    78.5    79.5    79.5       1       7                  tube_LumiCalInner          G4_Fe
+[ VERBOSE "InitDD4hep"]     3354    3355      14      17    79.5    79.5    65.5       5                  tube_BeamCalFront          G4_Fe
+[ VERBOSE "InitDD4hep"]     3355    3365      14      14      15      15       1      12           tube_BeamCalLinkUpstream          G4_Fe
+[ VERBOSE "InitDD4hep"]     3365    4049      14      14      15      15       1       1          tube_BeamCalInnerUpstream          G4_Fe
+[ VERBOSE "InitDD4hep"]     4049    4050       9       9      15      15       6       1                      tube_QD0Front          G4_Fe
+[ VERBOSE "InitDD4hep"]     4050   12500       9       9      10      10       1       1                  tube_MainUpstream          G4_Fe
+[ VERBOSE "InitDD4hep"]     3355    3365      17      17      18      18       1       2           tube_BeamCalLinkDnstream          G4_Fe
+[ VERBOSE "InitDD4hep"]     3365    5999      17      17      18      18       1       2          tube_BeamCalInnerDnstream          G4_Fe
+[ VERBOSE "InitDD4hep"]     5999    6000      17      17      20      20       3       2                   tube_QDEX1AFront          G4_Fe
+[ VERBOSE "InitDD4hep"]     6000    7741      17      17      18      18       1       2                   tube_QDEX1AInner          G4_Fe
+[ VERBOSE "InitDD4hep"]     7741    7839      17      23      18      24       1       2                    tube_QDEX1ALink          G4_Fe
+[ VERBOSE "InitDD4hep"]     7839    9681      23      23      24      24       1       2                   tube_QDEX1BInner          G4_Fe
+[ VERBOSE "InitDD4hep"]     9681    9779      23      29      24      30       1       2                    tube_QDEX1BLink          G4_Fe
+[ VERBOSE "InitDD4hep"]     9779   12500      29      29      30      30       1       2                   tube_QFEX2AInner          G4_Fe
+Compact          INFO  ++ Converted subdetector:Tube of type Beampipe_o1_v01 
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/ftd_simple_staggered_02.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/ftd_simple_staggered_02.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/ftd_simple_staggered_02.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"] FTD_Simple_Staggered:	 inner support thickness = 0.1	 cables thickness = 0.008	 2 x cable shield thickness = 0.02	 beamTubeClearance = 1.5
+[ VERBOSE "InitDD4hep"] FTD_Simple_Staggered: Disk:1	 z = 22	 inner rad = 4	 outer rad = 15.2	 beamtube rad = 2.5	 free space = 1.322
+[ VERBOSE "InitDD4hep"] FTD_Simple_Staggered: Disk:2	 z = 37.1309	 inner rad = 5.07477	 outer rad = 15.2	 beamtube rad = 3.57477	 free space = 1.322
+[ VERBOSE "InitDD4hep"] FTD_Simple_Staggered: Disk:3	 z = 64.4906	 inner rad = 7.13191	 outer rad = 29.89	 beamtube rad = 5.63191	 free space = 1.322
+[ VERBOSE "InitDD4hep"] FTD_Simple_Staggered: Disk:4	 z = 104.612	 inner rad = 10.1409	 outer rad = 30.9	 beamtube rad = 8.64085	 free space = 1.322
+[ VERBOSE "InitDD4hep"] FTD_Simple_Staggered: Disk:5	 z = 144.733	 inner rad = 13.1498	 outer rad = 30.9	 beamtube rad = 11.6498	 free space = 1.322
+[ VERBOSE "InitDD4hep"] FTD_Simple_Staggered: Disk:6	 z = 184.854	 inner rad = 16.1587	 outer rad = 30.9	 beamtube rad = 14.6587	 free space = 1.322
+[ VERBOSE "InitDD4hep"] FTD_Simple_Staggered: Disk:7	 z = 225	 inner rad = 19.1696	 outer rad = 30.9	 beamtube rad = 17.6696	 free space = 1.322
+Compact          INFO  ++ Converted subdetector:FTD of type FTD_Simple_Staggered [tracker]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/vxd07.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/vxd07.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/vxd07.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"]  ############## layer : 0 number of ladders : 10
+[ VERBOSE "InitDD4hep"]   ***** place cabling for KaptonLines_00
+[ VERBOSE "InitDD4hep"]  layer 0 length of the cone 8.36061 opening angle 0.166196
+[ VERBOSE "InitDD4hep"]  kapton:layer 0 v phi 0 o phi 0
+[ VERBOSE "InitDD4hep"]  metal:layer 0 v phi 0 o phi 0
+[ VERBOSE "InitDD4hep"]  ############## layer : 1 number of ladders : 10
+[ VERBOSE "InitDD4hep"] ############## thetaTube = 0.159898
+[ VERBOSE "InitDD4hep"]   ***** place ladder 0 for SiActiveLayer_01
+[ VERBOSE "InitDD4hep"]   ***** place ladder 1 for SiActiveLayer_01
+[ VERBOSE "InitDD4hep"]   ***** place ladder 2 for SiActiveLayer_01
+[ VERBOSE "InitDD4hep"]   ***** place ladder 3 for SiActiveLayer_01
+[ VERBOSE "InitDD4hep"]   ***** place ladder 4 for SiActiveLayer_01
+[ VERBOSE "InitDD4hep"]   ***** place ladder 5 for SiActiveLayer_01
+[ VERBOSE "InitDD4hep"]   ***** place ladder 6 for SiActiveLayer_01
+[ VERBOSE "InitDD4hep"]   ***** place ladder 7 for SiActiveLayer_01
+[ VERBOSE "InitDD4hep"]   ***** place ladder 8 for SiActiveLayer_01
+[ VERBOSE "InitDD4hep"]   ***** place ladder 9 for SiActiveLayer_01
+[ VERBOSE "InitDD4hep"]  ############## layer : 2 number of ladders : 11
+[ VERBOSE "InitDD4hep"]   ***** place cabling for KaptonLines_02
+[ VERBOSE "InitDD4hep"]  layer 2 length of the cone 1.96 opening angle 0.33614
+[ VERBOSE "InitDD4hep"]  ############## layer : 3 number of ladders : 11
+[ VERBOSE "InitDD4hep"]  ############## layer : 4 number of ladders : 17
+[ VERBOSE "InitDD4hep"]   ***** place cabling for KaptonLines_04
+[ VERBOSE "InitDD4hep"]  layer 4 length of the cone 1.96 opening angle 0.953449
+[ VERBOSE "InitDD4hep"]  ############## layer : 5 number of ladders : 17
+Compact          INFO  ++ Converted subdetector:VXD of type VXD04 [tracker]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/sit_simple_planar_sensors_03.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/sit_simple_planar_sensors_03.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/sit_simple_planar_sensors_03.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"] SIT_Simple_Planar: Layer:0	 half length = 36.8	 sensor length = 9.2	 n sensors per ladder = 8	 min r sensitive = 15.29	 min r support = 15.31	 n ladders = 10	 ladder width = 9.91604	 ladder clearance = 0.01	 ladder dphi = 0.628319	 sensitive mat = G4_Si	 support mat = G4_C	 faces_IP = 1	 is_SIT1 = 1	 is_SIT2 = 0
+[ VERBOSE "InitDD4hep"] SIT_Simple_Planar: Layer:1	 half length = 36.8	 sensor length = 9.2	 n sensors per ladder = 8	 min r sensitive = 15.54	 min r support = 15.44	 n ladders = 10	 ladder width = 10.0135	 ladder clearance = 0.01	 ladder dphi = 0.628319	 sensitive mat = G4_Si	 support mat = G4_C	 faces_IP = 0	 is_SIT1 = 0	 is_SIT2 = 0
+[ VERBOSE "InitDD4hep"] SIT_Simple_Planar: Layer:2	 half length = 64.4	 sensor length = 9.2	 n sensors per ladder = 14	 min r sensitive = 29.99	 min r support = 30.01	 n ladders = 19	 ladder width = 9.98889	 ladder clearance = 0.01	 ladder dphi = 0.330694	 sensitive mat = G4_Si	 support mat = G4_C	 faces_IP = 1	 is_SIT1 = 0	 is_SIT2 = 1
+[ VERBOSE "InitDD4hep"] SIT_Simple_Planar: Layer:3	 half length = 64.4	 sensor length = 9.2	 n sensors per ladder = 14	 min r sensitive = 30.24	 min r support = 30.14	 n ladders = 19	 ladder width = 10.039	 ladder clearance = 0.01	 ladder dphi = 0.330694	 sensitive mat = G4_Si	 support mat = G4_C	 faces_IP = 0	 is_SIT1 = 0	 is_SIT2 = 0
+[ VERBOSE "InitDD4hep"] SIT_Simple_Planar done.
+[ VERBOSE "InitDD4hep"] 
+Compact          INFO  ++ Converted subdetector:SIT of type SIT_Simple_Planar [tracker]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/tpc10_01.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/tpc10_01.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/tpc10_01.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"]  ** building TPC10_geo in lcgeo v00-05
+[ VERBOSE "InitDD4hep"]  Cathode Grip Ring Material: SiC_foam : Rad length = 1345.64 mm.
+[ VERBOSE "InitDD4hep"] Endplate material mix Density   = 0.000933671 g/cm3
+[ VERBOSE "InitDD4hep"] Endplate material mix Radlength = 564.518 mm
+[ VERBOSE "InitDD4hep"] TPC10: Inner radius of the gas volume is  354 mm.
+[ VERBOSE "InitDD4hep"] TPC10: Outer radius of the gas volume is 1748 mm.
+[ VERBOSE "InitDD4hep"] TPC10: Inner wall thickness is   25 mm.
+[ VERBOSE "InitDD4hep"] TPC10: Outer wall thickness is   60 mm.
+[ VERBOSE "InitDD4hep"] TPC10: Outer wall thickness is   60 mm.
+[ VERBOSE "InitDD4hep"] TPC10: Inner radius of the sensitive volume is  384 mm.
+[ VERBOSE "InitDD4hep"] TPC10: Outer radius of the sensitive volume is 1718 mm.
+[ VERBOSE "InitDD4hep"] TPC10: Number of Pad Rows in the TPC   222
+[ VERBOSE "InitDD4hep"] TPC10: Limiting the step length in the TPC to     5 mm.
+[ VERBOSE "InitDD4hep"] TPC10: Total Gas material corresponds to 0.12067% of a radiation length.
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Inner Wall: dr =  0.01 mm. Material = G4_Al X0 = 8.89633  0.000112406% X0
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Inner Wall: dr =  0.05 mm. Material = G4_KAPTON X0 = 28.5747  0.00017498% X0
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Inner Wall: dr =   0.3 mm. Material = g10 X0 = 16.2003  0.00185182% X0
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Inner Wall: dr =  24.22 mm. Material = G4_AIR X0 = 30392  7.96919e-05% X0
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Inner Wall: dr =   0.3 mm. Material = g10 X0 = 16.2003  0.00185182% X0
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Inner Wall: dr =  0.05 mm. Material = G4_KAPTON X0 = 28.5747  0.00017498% X0
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Inner Wall: dr =  0.07 mm. Material = G4_Cu X0 = 1.43559  0.00487606% X0
+[ VERBOSE "InitDD4hep"] TPC10: Inner wall material corresponds to 0.9% of a radiation length.
+[ VERBOSE "InitDD4hep"] TPC10: Inner wall effective X0 = 274.07
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Outer Wall: dr =  0.07 mm. Material = G4_Cu X0 = 1.43559  0.00487606% X0
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Outer Wall: dr =  0.05 mm. Material = G4_KAPTON X0 = 28.5747  0.00017498% X0
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Outer Wall: dr =   0.3 mm. Material = g10 X0 = 16.2003  0.00185182% X0
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Outer Wall: dr =  59.22 mm. Material = G4_AIR X0 = 30392  0.000194854% X0
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Outer Wall: dr =   0.3 mm. Material = g10 X0 = 16.2003  0.00185182% X0
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Outer Wall: dr =  0.05 mm. Material = G4_KAPTON X0 = 28.5747  0.00017498% X0
+[ VERBOSE "InitDD4hep"] TPC10: Add Material to Outer Wall: dr =  0.01 mm. Material = G4_Al X0 = 8.89633  0.000112406% X0
+[ VERBOSE "InitDD4hep"] TPC10: Outer wall material corresponds to 0.9% of a radiation length.
+[ VERBOSE "InitDD4hep"] TPC10: Outer wall effective X0 = 649.567
+[ VERBOSE "InitDD4hep"] Cathode dz = 0.00275
+[ VERBOSE "InitDD4hep"] Place cathode +z at 0.001375
+[ VERBOSE "InitDD4hep"] Place cathode -z at -0.001375
+[ VERBOSE "InitDD4hep"] TPC10: Readout material corresponds to 6.9% of a radiation length.
+[ VERBOSE "InitDD4hep"] TPC10: Total Endplate material corresponds to 8.68633% of a radiation length.
+Compact          INFO  ++ Converted subdetector:TPC of type TPC10 [tracker]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/set_simple_planar_sensors_01.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/set_simple_planar_sensors_01.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/set_simple_planar_sensors_01.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"] SET_Simple_Planar: Layer:0	 half length = 230	 sensor length = 9.2	 n sensors per ladder = 50	 min r sensitive = 181.09	 min r support = 181.11	 n ladders = 24	 ladder width = 47.6619	 ladder clearance = 0.01	 ladder dphi = 0.261799	 sensitive mat = G4_Si	 support mat = G4_C	 faces_IP = 1
+[ VERBOSE "InitDD4hep"] SET_Simple_Planar: Layer:1	 half length = 230	 sensor length = 9.2	 n sensors per ladder = 50	 min r sensitive = 181.34	 min r support = 181.24	 n ladders = 24	 ladder width = 47.7014	 ladder clearance = 0.01	 ladder dphi = 0.261799	 sensitive mat = G4_Si	 support mat = G4_C	 faces_IP = 0
+[ VERBOSE "InitDD4hep"] SET_Simple_Planar done.
+[ VERBOSE "InitDD4hep"] 
+Compact          INFO  ++ Converted subdetector:SET of type SET_Simple_Planar [tracker]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SEcal04_Barrel.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SEcal04_Barrel.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SEcal04_Barrel.xml succesfully parsed with TinyXML .....
+Compact          INFO  ++ Converted subdetector:EcalBarrel of type SEcal04_Barrel [calorimeter]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SEcal04_Endcaps.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SEcal04_Endcaps.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SEcal04_Endcaps.xml succesfully parsed with TinyXML .....
+Compact          INFO  ++ Converted subdetector:EcalEndcap of type SEcal04_Endcaps [calorimeter]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SEcal04_ECRing.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SEcal04_ECRing.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SEcal04_ECRing.xml succesfully parsed with TinyXML .....
+Compact          INFO  ++ Converted subdetector:EcalPlug of type SEcal04_ECRing [calorimeter]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SHcalSc04_Barrel_v01.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SHcalSc04_Barrel_v01.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SHcalSc04_Barrel_v01.xml succesfully parsed with TinyXML .....
+Compact          INFO  ++ Converted subdetector:HcalBarrel of type SHcalSc04_Barrel_v01 [calorimeter]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SHcalSc04_Endcaps.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SHcalSc04_Endcaps.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SHcalSc04_Endcaps.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"] 
+[ VERBOSE "InitDD4hep"]  HcalEndcap_inner_radius = 350 mm
+[ VERBOSE "InitDD4hep"]  HcalEndcap_outer_radius = 3395.54 mm
+[ VERBOSE "InitDD4hep"]  HcalEndcap_min_z = 2650 mm
+[ VERBOSE "InitDD4hep"]  HcalEndcap_max_z = 3937 mm
+Compact          INFO  ++ Converted subdetector:HcalEndcap of type SHcalSc04_Endcaps [calorimeter]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SHcalSc04_EndcapRing.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SHcalSc04_EndcapRing.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/SHcalSc04_EndcapRing.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"]  
+[ VERBOSE "InitDD4hep"] 
+[ VERBOSE "InitDD4hep"] 
+[ VERBOSE "InitDD4hep"]  CREATE DETECTOR: SHcalSC04_EndcapRing
+[ VERBOSE "InitDD4hep"]     HCAL endcap rings: HcalEndcapRing_inner_radius: 213.88
+[ VERBOSE "InitDD4hep"]     HCAL endcap rings: HcalEndcapRing_outer_radius: 313.707
+[ VERBOSE "InitDD4hep"]     HCAL endcap rings: HcalEndcapRing_min_z:  245
+[ VERBOSE "InitDD4hep"]     HCAL endcap rings: HcalEndcapRing_max_z:  263.5
+[ VERBOSE "InitDD4hep"]     HCAL endcap rings: SpaceForLayers:  17
+[ VERBOSE "InitDD4hep"]     HCAL endcap rings will have 6 layers.
+[ VERBOSE "InitDD4hep"]   layer_id:  1   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  2   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  3   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  4   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  5   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  6   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  1   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  2   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  3   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  4   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  5   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  6   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  1   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  2   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  3   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  4   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  5   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  6   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  1   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  2   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  3   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  4   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  5   slice_id:  0
+[ VERBOSE "InitDD4hep"]   layer_id:  6   slice_id:  0
+Compact          INFO  ++ Converted subdetector:HcalRing of type SHcalSc04_EndcapRing [calorimeter]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/Yoke05_Barrel.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/Yoke05_Barrel.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/Yoke05_Barrel.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"]  Build the yoke within this dimension 
+[ VERBOSE "InitDD4hep"]   ...Yoke  db: symmetry             12
+[ VERBOSE "InitDD4hep"]   ...Yoke  db: rInnerBarrel         442.404
+[ VERBOSE "InitDD4hep"]   ...Yoke  db: zStartEndcap         407.2
+[ VERBOSE "InitDD4hep"]   ...Muon  db: iron_thickness       10
+[ VERBOSE "InitDD4hep"]   ...Muon  db: gap_thickness        4
+[ VERBOSE "InitDD4hep"]   ...Muon  db: number_of_layers     10
+[ VERBOSE "InitDD4hep"]   ...Muon par: yokeBarrelThickness  324.1
+[ VERBOSE "InitDD4hep"]   ...Muon par: Barrel_half_z        404.7
+Compact          INFO  ++ Converted subdetector:YokeBarrel of type Yoke05_Barrel [calorimeter]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/Yoke05_Endcaps.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/Yoke05_Endcaps.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/Yoke05_Endcaps.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"]  Build the yoke within this dimension 
+[ VERBOSE "InitDD4hep"]   ...Yoke  db: symmetry             12
+[ VERBOSE "InitDD4hep"]   ...Yoke  db: rInnerEndcap         30
+[ VERBOSE "InitDD4hep"]   ...Yoke  db: rOuterEndcap         766.504
+[ VERBOSE "InitDD4hep"]   ...Yoke  db: zStartEndcap         407.2
+[ VERBOSE "InitDD4hep"]   ...Muon  db: iron_thickness       10
+[ VERBOSE "InitDD4hep"]   ...Muon  db: gap_thickness        4
+[ VERBOSE "InitDD4hep"]   ...Muon  db: number_of_layers     10
+[ VERBOSE "InitDD4hep"]   ...Muon par: yokeEndcapThickness  264
+[ VERBOSE "InitDD4hep"]   ...Muon par: Barrel_half_z        404.7
+[ VERBOSE "InitDD4hep"]   ...Plug par: build_plug is true, there is space to build yoke plug
+[ VERBOSE "InitDD4hep"]   ...Plug par: HCAL_half_z          393.7
+[ VERBOSE "InitDD4hep"]   ...Plug par: HCAL_Plug_Gap        4.5
+[ VERBOSE "InitDD4hep"]   ...Plug par: Plug Thickness       9
+[ VERBOSE "InitDD4hep"]   ...Plug par: Plug Radius          339.554
+Compact          INFO  ++ Converted subdetector:YokeEndcap of type Yoke05_Endcaps [calorimeter]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/BeamCal08.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/BeamCal08.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/BeamCal08.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"] This is the BeamCal
+[ VERBOSE "InitDD4hep"] Building all.
+[ VERBOSE "InitDD4hep"]  The crossing angle is: 0.014 radian
+[ VERBOSE "InitDD4hep"] bcalCutOutSpan  698.132 mrad
+[ VERBOSE "InitDD4hep"] bcalCutOutSpan  40 degree
+[ VERBOSE "InitDD4hep"] bcalCutOutStart 2.79253 Radian
+[ VERBOSE "InitDD4hep"] bcalCutOutEnd   3.49066 Radian
+[ VERBOSE "InitDD4hep"] incommingBeamPipeRadius: 1.5 cm
+[ VERBOSE "InitDD4hep"] cutOutRadius: 6.84924 cm 
+[ VERBOSE "InitDD4hep"] Total Length 22.0024 cm
+[ VERBOSE "InitDD4hep"] Layer Thickness 10.4001 cm
+[ VERBOSE "InitDD4hep"] Total Length 22.0024 cm
+[ VERBOSE "InitDD4hep"] Layer Thickness 0.40008 cm
+Compact          INFO  ++ Converted subdetector:BeamCal of type BeamCal_o1_v01 [calorimeter]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/LumiCal.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/LumiCal.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/LumiCal.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"] dd4hep::Ref_t create_detector(dd4hep::Detector&, xml_h, dd4hep::SensitiveDetector)
+[ VERBOSE "InitDD4hep"] Here is my LumiCal
+[ VERBOSE "InitDD4hep"]  and this is the sensitive detector: 0x7ffc75f40238
+[ VERBOSE "InitDD4hep"]  The crossing angle is: 0.014 radian
+[ VERBOSE "InitDD4hep"] Total Length 13.065 cm
+[ VERBOSE "InitDD4hep"] Layer Thickness 0.4355 cm
+Compact          INFO  ++ Converted subdetector:Lcal of type LumiCal_o1_v01 [calorimeter]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/LHCal.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/LHCal.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/LHCal.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"] dd4hep::Ref_t create_detector(dd4hep::Detector&, xml_h, dd4hep::SensitiveDetector)
+[ VERBOSE "InitDD4hep"] Here is my LHCal
+[ VERBOSE "InitDD4hep"]  and this is the sensitive detector: 0x7ffc75f40188
+[ VERBOSE "InitDD4hep"]  The crossing angle is: 0.014 radian
+[ VERBOSE "InitDD4hep"] Total Length 52 cm
+[ VERBOSE "InitDD4hep"] Layer Thickness 1.3 cm
+Compact          INFO  ++ Converted subdetector:LHcal of type LHCal [calorimeter]
+DocumentHandler  INFO  +++ Loading document URI: /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/coil03.xml [Resolved:'/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/coil03.xml']
+DocumentHandler  INFO  +++ Document /cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/coil03.xml succesfully parsed with TinyXML .....
+[ VERBOSE "InitDD4hep"] 
+[ VERBOSE "InitDD4hep"] Building Coil...
+[ VERBOSE "InitDD4hep"] 
+[ VERBOSE "InitDD4hep"] ... cryostat inner_radius 342.514
+[ VERBOSE "InitDD4hep"] ... cryostat outer_radius 417.494
+[ VERBOSE "InitDD4hep"] ... cryostat half_z       387.19
+[ VERBOSE "InitDD4hep"]  ... for the time being simply use a tube of aluminum ...
+[ VERBOSE "InitDD4hep"] SCoil02 done.
+[ VERBOSE "InitDD4hep"] 
+Compact          INFO  ++ Converted subdetector:Coil of type SCoil02 
+Compact          INFO  ++ Converted field: Successfully created field GlobalSolenoid [solenoid]
+Detector         INFO  +++ Patching names of anonymous shapes....
+EcalEndcap       INFO  +++ Processing SurfaceInstaller for subdetector: 'EcalEndcap'
+DD4hep_CaloFaceEndcapSurfacePlugin INFO  install tracking surfaces for :  EcalEndcap 
+EcalBarrel       INFO  +++ Processing SurfaceInstaller for subdetector: 'EcalBarrel'
+DD4hep_CaloFaceBarrelSurfacePlugin INFO  install tracking surfaces for :  EcalBarrel 
+InstallSurfaceManager INFO  **** running plugin InstallSurfaceManager ! 
+DD4hepVolumeManager INFO  **** running plugin DD4hepVolumeManager ! 
+VolumeManager    INFO   - populating volume ids - be patient ...
+VolumeManager    INFO   - populating volume ids - done. 326916 nodes.
+VolumeManager    INFO  +++ Volume manager populated and loaded.
+InstallSurfaceManager INFO  --------  SurfaceManager contains the following maps : --------- 
+  key: BeamCal 	 number of surfaces : 0
+  key: Coil 	 number of surfaces : 0
+  key: EcalBarrel 	 number of surfaces : 8
+  key: EcalEndcap 	 number of surfaces : 2
+  key: EcalPlug 	 number of surfaces : 0
+  key: FTD 	 number of surfaces : 384
+  key: HcalBarrel 	 number of surfaces : 0
+  key: HcalEndcap 	 number of surfaces : 0
+  key: HcalRing 	 number of surfaces : 0
+  key: LHcal 	 number of surfaces : 0
+  key: Lcal 	 number of surfaces : 0
+  key: SET 	 number of surfaces : 2400
+  key: SIT 	 number of surfaces : 692
+  key: TPC 	 number of surfaces : 226
+  key: Tube 	 number of surfaces : 27
+  key: VXD 	 number of surfaces : 398
+  key: YokeBarrel 	 number of surfaces : 0
+  key: YokeEndcap 	 number of surfaces : 0
+  key: calorimeter 	 number of surfaces : 10
+  key: passive 	 number of surfaces : 27
+  key: tracker 	 number of surfaces : 4100
+  key: world 	 number of surfaces : 4137
+---------------------------------------------------------------- 
+
+[ MESSAGE "InitDD4hep"]  ---- instantiated  geometry for detector ILD_o1_v05
+[ MESSAGE "InitDD4hep"]  -------------------------------------
+[ DEBUG "MyISRQQ500"]    init called  
+[ MESSAGE "MyISRQQ500"] 
+[ MESSAGE "MyISRQQ500"] ---- MyISRQQ500 -  parameters: 
+[ MESSAGE "MyISRQQ500"] 	CollectionName:  MCParticlesSkimmed
+[ MESSAGE "MyISRQQ500"] 	DesiredFlavour:  b_quark
+[ MESSAGE "MyISRQQ500"] 	ISR_CUT:  50
+[ MESSAGE "MyISRQQ500"] -------------------------------------------------
+[ MESSAGE "MyLikelihoodPID"] 
+[ MESSAGE "MyLikelihoodPID"] ---- MyLikelihoodPID -  parameters: 
+[ MESSAGE "MyLikelihoodPID"] 	CostMatrix:  0 1 1.5 1 1.5 1 0 3 1 1 1 1 0 1 3 1 1 4 0 2 1 1 5 1 0 
+[ MESSAGE "MyLikelihoodPID"] 	EnergyBoundaries:  0 1e+07 
+[ MESSAGE "MyLikelihoodPID"] 	FilePDFName:  /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LikelihoodPID_Standard_l5_v01.root
+[ MESSAGE "MyLikelihoodPID"] 	FileWeightFormupiSeparationName:  /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_02GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_03GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_04GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_05GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_06GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_07GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_08GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_09GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_10GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_11GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_12GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_13GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_14GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_15GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_16GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_17GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_18GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_19GeVP_clusterinfo.weights.xml /cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_20GeVP_clusterinfo.weights.xml 
+[ MESSAGE "MyLikelihoodPID"] 	PIDMethodsToRun:  BasicVariablePID LowMomMuID ShowerShapesPID dEdxPID LikelihoodPID 
+[ MESSAGE "MyLikelihoodPID"] 	PIDMethodsToRun_version:  v3
+[ MESSAGE "MyLikelihoodPID"] 	RecoParticleCollection:  PandoraPFOs
+[ MESSAGE "MyLikelihoodPID"] 	UseBayesian:  2
+[ MESSAGE "MyLikelihoodPID"] 	UseLowMomentumMuPiSeparation:  true
+[ MESSAGE "MyLikelihoodPID"] 	dEdxErrorFactor:  7.55
+[ MESSAGE "MyLikelihoodPID"] 	dEdxNormalization:  1.35e-07
+[ MESSAGE "MyLikelihoodPID"] 	dEdxParameter_electron:  -0.00232937 -3.88424e+13 -37881.1 -1.56837 0 
+[ MESSAGE "MyLikelihoodPID"] 	dEdxParameter_kaon:  0.0792784 3798.12 4.06952e+07 0.450671 0.00050169 
+[ MESSAGE "MyLikelihoodPID"] 	dEdxParameter_muon:  0.0717375 -16596.5 -4.84028e+07 0.356728 0.000371431 
+[ MESSAGE "MyLikelihoodPID"] 	dEdxParameter_pion:  0.0733683 51678.4 8.19644e+07 0.453505 0.000404984 
+[ MESSAGE "MyLikelihoodPID"] 	dEdxParameter_proton:  0.0770318 1053.24 4.95076e+06 0.281489 0.000168616 
+[ MESSAGE "MyLikelihoodPID"] -------------------------------------------------
+[ DEBUG "JetClustering"]    init called  
+[ MESSAGE "JetClustering"] 
+[ MESSAGE "JetClustering"] ---- JetClustering -  parameters: 
+[ MESSAGE "JetClustering"] 	Algorithms:  JetClustering JetVertexRefiner 
+[ MESSAGE "JetClustering"] 	IgnoreLackOfVertexRP:  0
+[ MESSAGE "JetClustering"] 	MCPCollection:  
+[ MESSAGE "JetClustering"] 	MCPFORelation:  
+[ MESSAGE "JetClustering"] 	PFOCollection:  PandoraPFOs
+[ MESSAGE "JetClustering"] 	PIDAlgorithmName:  dEdxPIDv3
+[ MESSAGE "JetClustering"] 	PrintEventNumber:  0
+[ MESSAGE "JetClustering"] 	ReadSubdetectorEnergies:  1
+[ MESSAGE "JetClustering"] 	TrackHitOrdering:  1
+[ MESSAGE "JetClustering"] 	UpdateVertexRPDaughters:  0
+[ MESSAGE "JetClustering"] 	UseMCP:  0
+[ MESSAGE "JetClustering"] -------------------------------------------------
+[ VERBOSE "JetClustering"] LCIOStorer: initialization finished.
+[ VERBOSE "JetClustering"] EventStore::Register: collection PandoraPFOs registered with type vector<lcfiplus::Track*>
+[ VERBOSE "JetClustering"] EventStore::Register: collection PandoraPFOs registered with type vector<lcfiplus::Neutral*>
+[ VERBOSE "JetClustering"] LCIOStorer initialized without MCParticle collection.
+[ MESSAGE "JetClustering"] Algorithm JetClustering is being initialized.
+[ VERBOSE "JetClustering"] Parameter JetClustering.PrimaryVertexCollectionName not found.
+[ VERBOSE "JetClustering"] Loading LCIO vertex collection: BuildUpVertex
+[ VERBOSE "JetClustering"] BuildUpVertex loading 
+[ VERBOSE "JetClustering"] Registering output LCIO vertex collection: BuildUpVertex
+[ VERBOSE "JetClustering"] EventStore::Register: collection BuildUpVertex registered with type vector<lcfiplus::Vertex*>
+[ VERBOSE "JetClustering"] Parameter JetClustering.AlphaParameter not found.
+[ VERBOSE "JetClustering"] Parameter JetClustering.OutputJetStoresVertex not found.
+[ VERBOSE "JetClustering"] Registering output LCIO jet collection: VertexJets
+[ VERBOSE "JetClustering"] EventStore::Register: collection VertexJets registered with type vector<lcfiplus::Jet*>
+[ VERBOSE "JetClustering"] Parameter JetClustering.YAddedForJetVertexLepton not found.
+[ VERBOSE "JetClustering"] Parameter JetClustering.MuonIDMinimumEnergy not found.
+[ VERBOSE "JetClustering"] Parameter JetClustering.MaxNumberOfJetsForYThreshold not found.
+[ MESSAGE "JetClustering"] Algorithm JetClustering successfully initialized.
+[ MESSAGE "JetClustering"] Algorithm JetVertexRefiner is being initialized.
+[ VERBOSE "JetClustering"] Registering output LCIO jet collection: RefinedJets
+[ VERBOSE "JetClustering"] EventStore::Register: collection RefinedJets registered with type vector<lcfiplus::Jet*>
+[ VERBOSE "JetClustering"] Registering output LCIO vertex collection: RefinedVertex
+[ VERBOSE "JetClustering"] EventStore::Register: collection RefinedVertex registered with type vector<lcfiplus::Vertex*>
+[ VERBOSE "JetClustering"] Parameter JetVertexRefiner.useBNess not found.
+[ VERBOSE "JetClustering"] Parameter JetVertexRefiner.BNessCut not found.
+[ VERBOSE "JetClustering"] Parameter JetVertexRefiner.BNessCutE1 not found.
+[ MESSAGE "JetClustering"] Algorithm JetVertexRefiner successfully initialized.
+[ VERBOSE "JetClustering"] Printing object map in EventStore...
+[ VERBOSE "JetClustering"] Name: BuildUpVertex, Class: vector<lcfiplus::Vertex*>
+[ VERBOSE "JetClustering"] Name: PandoraPFOs, Class: vector<lcfiplus::Track*>
+[ VERBOSE "JetClustering"] Name: PandoraPFOs, Class: vector<lcfiplus::Neutral*>
+[ VERBOSE "JetClustering"] Name: RefinedJets, Class: vector<lcfiplus::Jet*>
+[ VERBOSE "JetClustering"] Name: RefinedVertex, Class: vector<lcfiplus::Vertex*>
+[ VERBOSE "JetClustering"] Name: VertexJets, Class: vector<lcfiplus::Jet*>
+[ VERBOSE "JetClustering"] Printing object map in EventStore finished.
+[ DEBUG "MakeNtuple"]    init called  
+[ MESSAGE "MakeNtuple"] 
+[ MESSAGE "MakeNtuple"] ---- MakeNtuple -  parameters: 
+[ MESSAGE "MakeNtuple"] 	Algorithms:  FlavorTag MakeNtuple 
+[ MESSAGE "MakeNtuple"] 	IgnoreLackOfVertexRP:  0
+[ MESSAGE "MakeNtuple"] 	MCPCollection:  
+[ MESSAGE "MakeNtuple"] 	MCPFORelation:  
+[ MESSAGE "MakeNtuple"] 	PFOCollection:  PandoraPFOs
+[ MESSAGE "MakeNtuple"] 	PIDAlgorithmName:  dEdxPIDv3
+[ MESSAGE "MakeNtuple"] 	PrintEventNumber:  0
+[ MESSAGE "MakeNtuple"] 	ReadSubdetectorEnergies:  1
+[ MESSAGE "MakeNtuple"] 	TrackHitOrdering:  1
+[ MESSAGE "MakeNtuple"] 	UpdateVertexRPDaughters:  0
+[ MESSAGE "MakeNtuple"] 	UseMCP:  0
+[ MESSAGE "MakeNtuple"] -------------------------------------------------
+[ VERBOSE "MakeNtuple"] LCIOStorer initialized without MCParticle collection.
+[ MESSAGE "MakeNtuple"] Algorithm FlavorTag is being initialized.
+[ VERBOSE "MakeNtuple"] normd0ip[0] = 0.261078 normd0ip[1] = 0.311792
+[ VERBOSE "MakeNtuple"] normz0ip[0] = 0.252095 normz0ip[1] = 0.307219
+[ VERBOSE "MakeNtuple"] Parameter FlavorTag.NVTXhitsJointProbD0 not found.
+[ VERBOSE "MakeNtuple"] Parameter FlavorTag.NVTXhitsJointProbZ0 not found.
+[ VERBOSE "MakeNtuple"] Parameter FlavorTag.NhitsMostSignificantTrack not found.
+[ VERBOSE "MakeNtuple"] Initializing FTManager variables.
+[ MESSAGE "MakeNtuple"] Algorithm FlavorTag successfully initialized.
+[ MESSAGE "MakeNtuple"] Algorithm MakeNtuple is being initialized.
+[ VERBOSE "MakeNtuple"] MakeNtuple: Ntuple file set to eL_pR_b_quark_359_Kisr_50.root
+[ VERBOSE "MakeNtuple"] FTManager: opening file 'eL_pR_b_quark_359_Kisr_50.root' for output
+[ VERBOSE "MakeNtuple"] FTManager: setting TTree name 'ntp'
+[ MESSAGE "MakeNtuple"] Algorithm MakeNtuple successfully initialized.
+[ VERBOSE "MakeNtuple"] Printing object map in EventStore...
+[ VERBOSE "MakeNtuple"] Name: BuildUpVertex, Class: vector<lcfiplus::Vertex*>
+[ VERBOSE "MakeNtuple"] Name: PandoraPFOs, Class: vector<lcfiplus::Track*>
+[ VERBOSE "MakeNtuple"] Name: PandoraPFOs, Class: vector<lcfiplus::Neutral*>
+[ VERBOSE "MakeNtuple"] Name: RefinedJets, Class: vector<lcfiplus::Jet*>
+[ VERBOSE "MakeNtuple"] Name: RefinedVertex, Class: vector<lcfiplus::Vertex*>
+[ VERBOSE "MakeNtuple"] Name: VertexJets, Class: vector<lcfiplus::Jet*>
+[ VERBOSE "MakeNtuple"] Printing object map in EventStore finished.
+[ DEBUG "MyISRQQ500"] Scanned PDG: 4
+[ DEBUG "MyISRQQ500"] Scanned PDG: 4
+[ DEBUG "MyISRQQ500"] Scanned PDG: 5
+[ DEBUG "MyISRQQ500"] K_reco: 158.363
+[ DEBUG "MyISRQQ500"] Scanned PDG: 4
+[ DEBUG "MyISRQQ500"] Scanned PDG: 4
+[ DEBUG "MyISRQQ500"] Scanned PDG: 3
+[ DEBUG "MyISRQQ500"] Scanned PDG: 5
+[ DEBUG "MyISRQQ500"] K_reco: 241.421
+[ DEBUG "MyISRQQ500"] Scanned PDG: 3
+[ DEBUG "MyISRQQ500"] Scanned PDG: 5
+[ DEBUG "MyISRQQ500"] K_reco: 5.32837e-05
+[ DEBUG "MyISRQQ500"]    processing event: 10132809   in run:  500259
+[ VERBOSE "JetClustering"] Loading LCIO vertex collection: PrimaryVertex
+[ VERBOSE "JetClustering"] PrimaryVertex loading 
+[ VERBOSE "JetClustering"] EventStore::Register: collection PrimaryVertex registered with type vector<lcfiplus::Vertex*>
+[ VERBOSE "JetClustering"] Loading LCIO vertex collection: BuildUpVertex_V0
+[ VERBOSE "JetClustering"] BuildUpVertex_V0 loading 
+[ VERBOSE "JetClustering"] EventStore::Register: collection BuildUpVertex_V0 registered with type vector<lcfiplus::Vertex*>
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "JetClustering"] connectVerticesToJets: vertex-jet association failed, vertex dropped
+[ VERBOSE "MakeNtuple"] FTManager: closing file
+[ VERBOSE "MakeNtuple"] LcfiplusProcessor::end()  MakeNtuple processed 489 events in 70 runs 
+[ VERBOSE "JetClustering"] LcfiplusProcessor::end()  JetClustering processed 489 events in 70 runs 
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+[ MESSAGE "Marlin"]   Events skipped by processors : 
+[ MESSAGE "Marlin"]        MyISRQQ500: 	13511
+[ MESSAGE "Marlin"]   Total: 13511
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+[ MESSAGE "Marlin"]       Time used by processors ( in processEvent() ) :      
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] JetClustering                        1.278700e+02 s in          489 events  ==> 2.614928e-01 [ s/evt.] 
+[ MESSAGE "Marlin"] MakeNtuple                           1.964000e+01 s in          489 events  ==> 4.016360e-02 [ s/evt.] 
+[ MESSAGE "Marlin"] myCheatdEdxDist50perc                1.107000e+01 s in          489 events  ==> 2.263804e-02 [ s/evt.] 
+[ MESSAGE "Marlin"] MyLikelihoodPID                      3.070000e+00 s in          489 events  ==> 6.278119e-03 [ s/evt.] 
+[ MESSAGE "Marlin"] InitDD4hep                           3.000000e-02 s in        14000 events  ==> 2.142857e-06 [ s/evt.] 
+[ MESSAGE "Marlin"] MyISRQQ500                           0.000000e+00 s in          489 events  ==> 0.000000e+00 [ s/evt.] 
+[ MESSAGE "Marlin"]             Total:                   1.616800e+02 s in        14000 events  ==> 1.154857e-02 [ s/evt.] 
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 

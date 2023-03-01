@@ -1,0 +1,3 @@
+output_ang have the results only cutting |cos(theta)|<0.95
+output_d have the results only removing pfos with d==0
+output have both applied at the same time

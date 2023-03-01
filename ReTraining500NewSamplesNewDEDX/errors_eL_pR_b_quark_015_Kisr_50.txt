@@ -1,0 +1,20 @@
+Error in <TSystem::ExpandFileName>: input: $HOME/.root.mimes, output: $HOME/.root.mimes
+Info in <TGeoManager::TGeoManager>: Geometry default, Detector Geometry created
+Info in <TGeoManager::SetTopVolume>: Top volume is world_volume. Master volume is world_volume
+Info in <TGeoNavigator::BuildCache>: --- Maximum geometry depth set to 100
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++  The usage of the factory: "Beampipe_o1_v01" is DEPRECATED due to naming conventions.                                    ++
+++  Please use "DD4hep_Beampipe_o1_v01" instead.                                                                            ++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Info in <TGeoManager::CheckGeometry>: Fixing runtime shapes...
+Info in <TGeoManager::CheckGeometry>: ...Nothing to fix
+Info in <TGeoManager::CloseGeometry>: Counting nodes...
+Info in <TGeoManager::Voxelize>: Voxelizing...
+Info in <TGeoManager::CloseGeometry>: Building cache...
+Info in <TGeoManager::CountLevels>: max level = 5, max placements = 1044
+Info in <TGeoManager::CloseGeometry>: 411734 nodes/ 5904 volume UID's in Detector Geometry
+Info in <TGeoManager::CloseGeometry>: ----------------modeler ready----------------
+Error in <TDecompLU::InvertLU>: matrix is singular, 3 diag elements < tolerance of 1.1921e-07
+Error in <TDecompLU::InvertLU>: matrix is singular, 3 diag elements < tolerance of 1.1921e-07
+Error in <TDecompLU::InvertLU>: matrix is singular, 1 diag elements < tolerance of 1.1921e-07
+Error in <TDecompLU::InvertLU>: matrix is singular, 1 diag elements < tolerance of 1.1921e-07
