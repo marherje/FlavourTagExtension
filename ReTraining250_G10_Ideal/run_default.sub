@@ -1,0 +1,10 @@
+# Unix submit description file
+# run_xFLAVOUR_xNAMEfile_Kisr_xISRCUT.sub -- simple Marlin job
+
+executable              = run_xFLAVOUR_xNAMEfile_Kisr_xISRCUT.sh
+log                     = run_xFLAVOUR_xNAMEfile_Kisr_xISRCUT.log
+output                  = outfile_xFLAVOUR_xNAMEfile_Kisr_xISRCUT.txt
+error                   = errors_xFLAVOUR_xNAMEfile_Kisr_xISRCUT.txt
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+queue 1

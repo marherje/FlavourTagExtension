@@ -15,4 +15,4 @@ build/
 *.pcm
 
 # Otros
-ReTraining*
+ReTraining250_G10_Ideal/**/*.root

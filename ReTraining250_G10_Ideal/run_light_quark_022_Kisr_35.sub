@@ -1,0 +1,10 @@
+# Unix submit description file
+# run_light_quark_022_Kisr_35.sub -- simple Marlin job
+
+executable              = run_light_quark_022_Kisr_35.sh
+log                     = run_light_quark_022_Kisr_35.log
+output                  = outfile_light_quark_022_Kisr_35.txt
+error                   = errors_light_quark_022_Kisr_35.txt
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+queue 1
