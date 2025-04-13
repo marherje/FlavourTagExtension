@@ -1,0 +1,18 @@
+# Compilación
+build/
+*.o
+*.so
+*.a
+*.exe
+
+# Archivos de sistema
+.DS_Store
+
+# Archivos de ROOT
+*.pcm
+*.root
+*.d
+*.pcm
+
+# Otros
+ReTraining*

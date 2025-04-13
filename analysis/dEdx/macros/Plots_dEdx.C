@@ -56,8 +56,8 @@ void Labels(TString pol, TString tracks, TString cut, TString cat, TString quark
   else if(cat=="catC")cat_string="Cat. C";
   else if(cat=="catD")cat_string="Cat. D";
   else cat_string="All categories";
-  QQBARLabel2(0.3,0.82, track_string+" tracks in "+quark_string,kGray+4);
-  QQBARLabel2(0.3,0.78, cat_string,kGray+4);
+  QQBARLabel2(0.35,0.82, track_string+" tracks in "+quark_string,kGray+4);
+  QQBARLabel2(0.35,0.78, cat_string,kGray+4);
   QQBARLabel2(0.5,0.965, "Work in progress",kRed+2);
   QQBARLabel2(0.075,0.025, "K_{#gamma} < 50 GeV, |cos#theta| < 0.95",kGray+2);
   QQBARLabel2(0.075,0.075,mom_string,kGray+2); //mom_string
@@ -1252,7 +1252,7 @@ void dEdx_p_cos(TString filename, TString filename2, TString secondary, TString 
   
   Labels("eL",secondary,cut,cat,quark);
 
-  TLegend *leg = new TLegend(0.2,0.7,0.5,0.85);
+  TLegend *leg = new TLegend(0.2,0.5,0.5,0.65); //0.2,0.7,0.5, 0.85
   leg->SetTextSize(0.03);
   leg->SetTextFont(42);
   leg->AddEntry(dEdx_p_pion,"charged pions","f");
